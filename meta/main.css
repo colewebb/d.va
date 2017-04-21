@@ -1,0 +1,27 @@
+body {
+  font-family: ubuntu;
+}
+#contents {
+  background-color: rgb(230,230,230);
+  padding: 5px;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#contents a:visited{
+  color: blue;
+}
+p {
+  margin-left: 2%;
+  font-size: 1.15em;
+}
+@font-face {
+  font-family: ubuntu;
+  src: "./meta/fonts/ubuntu-regular.ttf";
+}
+h1{
+  font-size: 1.8em;
+}
+h2{
+  font-size: 1.5em;
+}
