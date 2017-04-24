@@ -4,12 +4,26 @@ body {
 #contents {
   background-color: rgb(230,230,230);
   padding: 5px;
-  max-width: 500px;
+  max-width: 470px;
   margin-left: 50px;
   margin-right: 50px;
+  font-size: 1.05em;
 }
-#contents a:visited{
+#contents a:visited {
   color: blue;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  top: 0px;
+  padding-left: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
 }
 p {
   margin-left: 2%;
@@ -19,9 +33,25 @@ p {
   font-family: ubuntu;
   src: "./meta/fonts/ubuntu-regular.ttf";
 }
-h1{
-  font-size: 1.8em;
+h1 {
+  font-size: 1.65em;
 }
-h2{
+h2 {
   font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+  margin-left: 20px;
+}
+#content ul {
+  padding-left: 20px;
+  color: black;
+}
+#longform ul {
+  font-size: 1.05em;
+  padding-left: 60px;
+}
+footer p{
+  font-size: 0.75em;
+  margin-left: 0%;
 }

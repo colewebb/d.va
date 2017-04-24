@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="./meta/main.css">
   </head>
   <body>
+    <!-- <div id="header">
+      <div id="header-title">D.Va: Making Android more secure, for those who need it most</div>
+    </div> -->
     <h1 id="top">D.Va: Making Android More Secure</h1>
     <h2 id="intro">Introduction and Warnings</h2>
     <p>
@@ -17,7 +20,7 @@
     <div id="contents">
       <ul>
         <li><a href="./home.html#basics">Basics</a>
-          <ol>
+          <ul>
             <li><a href="./home.html#apps-to-install">Apps to install</a></li>
             <li><a href="./home.html#apps-to-remove">Apps to remove</a></li>
             <li><a href="./home.html#turn-location-off">How to turn location on and off</a></li>
@@ -32,10 +35,10 @@
             <li><a href="./home.html#burner-sims">How to buy a burner SIM card and use it</a></li>
             <li><a href="./home.html#existential-consideration">Consider: do you really need a smartphone?</a></li>
             <li><a href="./home.html#remove-fitness-trackers">Turn off and don't use your fitness tracker(s)</a></li>
-          </ol>
+          </ul>
         </li>
         <li><a href="./home.html#advanced">Advanced</a>
-          <ol>
+          <ul>
             <li><a href="./home.html#rooting-top">Rooting, and what to do after:</a>
               <ul>
                 <li><a href="./home.html#rooting-risks-benefits">The risks and benefits of rooting (PLEASE READ)</a></li>
@@ -50,10 +53,10 @@
             <li><a href="./home.html#disable-camera">Permanently disable camera</a></li>
             <li><a href="./home.html#hard-mic-switch">Hardware switch for microphone</a></li>
             <li><a href="./home.html#external-mic">External microphones/speakers and their benefits</a></li>
-          </ol>
+          </ul>
         </li>
         <li><a href="./home.html#computer-safety">When a phone is not enough</a>
-          <ol>
+          <ul>
             <li><a href="./home.html#public-wifi">Public WiFi</a></li>
             <li><a href="./home.html#secure-computers">Secure computers (and why that's a contradiction)</a></li>
             <li><a href="./home.html#best-computers">But some computers are better than others</a>
@@ -63,100 +66,124 @@
                 <li>Basically anything that's not Windows</li>
               </ul>
             </li>
-          </ol>
+          </ul>
         </li>
         <li><a href="./home.html#misc">Other Stuff</a>
-          <ol>
+          <ul>
             <li><a href="./home.html#prepaid-visa">Prepaid VISA gift cards as debit/credit card replacements</a></li>
             <li><a href="./home.html#living-without-banks">Living without a bank</a></li>
             <li><a href="./home.html#staying-off-public-record">Staying off of the public record</a></li>
-          </ol>
+          </ul>
         </li>
       </ul>
     </div>
-    <h2 id="basics">Basics</h2>
-    <p id="apps-to-install">
-      Apps to install
-    </p>
-    <p id="apps-to-remove">
-      Apps to remove
-    </p>
-    <p id="turn-location-off">
-      How to turn location off
-    </p>
-    <p id="tape-camera">
-      Tape or nail polish over the camera
-    </p>
-    <p id="tweak-app-permissions">
-      Tweaking app permissions
-    </p>
-    <p id="burner-sims">
-      How to buy a burner SIM and how to install it
-    </p>
-    <p id="existential-consideration">
-      Consider: do you really need a smartphone?
-    </p>
-    <p id="remove-fitness-trackers">
-      Get rid of the fitness trackers
-    </p>
-    <h2 id="advanced">Advanced</h2>
-    <div id="rooting-top">
-      <h3>Rooting</h3>
-      <p id="rooting-risks-benefits">
-        Risks and benefits of rooting
+    <div id="longform">
+      <div id="apps-to-install">
+        <h2 id="basics">Basics</h2>
+        <h3>Apps to install</h3>
+        <p>We recommend installing the following apps:
+          <ul>
+            <li>Orbot (<a href="https://play.google.com/store/apps/details?id=org.torproject.android">https://play.google.com/store/apps/details?id=org.torproject.android</a>) and Orfox (<a href="https://play.google.com/store/apps/details?id=info.guardianproject.orfox">https://play.google.com/store/apps/details?id=info.guardianproject.orfox</a>). These two apps together provide anonymous web browsing, something we'll come back to.</li>
+            <li>Avast! Mobile Security (<a href="https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity">https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity</a>). This app does antivirus scans on your phone, and can detect dangerous apps on your phone (among other things, most of them useful).</li>
+            <li>Fing (<a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing">https://play.google.com/store/apps/details?id=com.overlook.android.fing</a>). Fing monitors what devices are connnected to your Wifi.</li>
+          </ul>
+        </p>
+        <p>
+          It is possible for websites, and people, to track you online using a variety of tools. Orbot and Orfox are built on Tor, which was designed and built by the US Government to foil tracking tools. Orbot/Orfox also contains a set of privacy protection tools.
+        </p>
+        <p>
+          Because of those privacy and anti-tracking tools, the Internet will look a little different when you're using Orbot/Orfox. You'll get reCAPTCHAs more often (the things asking you to prove that you're not a robot). Your internet will be slower. Some sites might refuse you access. You'll have to sign into websites more often.
+        </p>
+        <p>
+          Avast! Mobile Security has a couple of tools that we have found useful in times past. Whenever an app is installed or updated, Avast! will check the app for viruses and let you what it finds. It will also scan your device on a regular basis for viruses, your network for vulnerabilities (weak or no password, out-of-date security, etc.).
+        </p>
+        <p>
+          Fing is a weird app. Its job is to look at your Wifi network and tell you what is connected to it. This is good for finding things that are connected that you don't want connected, like hidden cameras, audio bugs, stuff like that. It is possible for devices to hide from this app, but it is tricky. I've only ever seem one device that could do it. (If you're curious, it was a base for a home security system.) Basically, just open the app every once in a while, refresh it, and make sure that there's no surprises in the resultant list.
+        </p>
+      </div>
+      <p id="apps-to-remove">
+        Apps to remove
       </p>
-      <p id="rooting-finding">
-        How to find a rootkit
+      <p id="turn-location-off">
+        How to turn location off
       </p>
-      <p id="rooting-installing">
-        How to install a rootkit
+      <p id="tape-camera">
+        Tape or nail polish over the camera
       </p>
-      <p id="rooting-gps-spoofers">
-        GPS spoofers
+      <p id="tweak-app-permissions">
+        Tweaking app permissions
       </p>
-      <p id="rooting-tor">
-        Rooting and Tor
+      <p id="burner-sims">
+        How to buy a burner SIM and how to install it
       </p>
-      <p id="rooting-remove-gapps">
-        Removing Google Apps and bloatware
+      <p id="existential-consideration">
+        Consider: do you really need a smartphone?
+      </p>
+      <p id="remove-fitness-trackers">
+        Get rid of the fitness trackers
+      </p>
+      <h2 id="advanced">Advanced</h2>
+      <div id="rooting-top">
+        <h3>Rooting</h3>
+        <p id="rooting-risks-benefits">
+          Risks and benefits of rooting
+        </p>
+        <p id="rooting-finding">
+          How to find a rootkit
+        </p>
+        <p id="rooting-installing">
+          How to install a rootkit
+        </p>
+        <p id="rooting-gps-spoofers">
+          GPS spoofers
+        </p>
+        <p id="rooting-tor">
+          Rooting and Tor
+        </p>
+        <p id="rooting-remove-gapps">
+          Removing Google Apps and bloatware
+        </p>
+      </div>
+      <p id="modify-gps">
+        Modify GPS
+      </p>
+      <p id="disable-camera">
+        Disable camera
+      </p>
+      <p id="hard-mic-switch">
+        Hardware microphone switch
+      </p>
+      <p id="external-mic">
+        External microphone
+      </p>
+      <h2 id="computer-safety">When a phone is not enough</h2>
+      <p id="public-wifi">
+        Public Wi-Fi
+      </p>
+      <p id="secure-computers">
+        Secure computers (and why that's a contradiction)
+      </p>
+      <p id="best-computers"</p>
+        But some computers are better than others
+        <ul>
+          <li>Macs</li>
+          <li>Chromebooks</li>
+          <li>Basically anything that's not Windows</li>
+        </ul>
+      </p>
+      <h2 id="misc">Other stuff</h2>
+      <p id="prepaid-visa">
+        Prepaid VISA gift cards as debit/credit replacements
+      </p>
+      <p id="living-without-banks">
+        Living without a bank
+      </p>
+      <p id="staying-off-public-record">
+        Staying off the public record
       </p>
     </div>
-    <p id="modify-gps">
-      Modify GPS
-    </p>
-    <p id="disable-camera">
-      Disable camera
-    </p>
-    <p id="hard-mic-switch">
-      Hardware microphone switch
-    </p>
-    <p id="external-mic">
-      External microphone
-    </p>
-    <h2 id="computer-safety">When a phone is not enough</h2>
-    <p id="public-wifi">
-      Public Wi-Fi
-    </p>
-    <p id="secure-computers">
-      Secure computers (and why that's a contradiction)
-    </p>
-    <p id="best-computers"</p>
-      But some computers are better than others
-      <ul>
-        <li>Macs</li>
-        <li>Chromebooks</li>
-        <li>Basically anything that's not Windows</li>
-      </ul>
-    </p>
-    <h2 id="misc">Other stuff</h2>
-    <p id="prepaid-visa">
-      Prepaid VISA gift cards as debit/credit replacements
-    </p>
-    <p id="living-without-banks">
-      Living without a bank
-    </p>
-    <p id="staying-off-public-record">
-      Staying off the public record
-    </p>
+    <footer>
+      <p>Licensed under GPL 3.0</p>
+    </footer>
   </body>
 </html>
