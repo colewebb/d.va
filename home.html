@@ -25,6 +25,7 @@
             <li><a href="./home.html#apps-to-remove">Apps to remove</a></li>
             <li><a href="./home.html#turn-location-off">How to turn location on and off</a></li>
             <li><a href="./home.html#tape-camera">Disabling camera</a></li>
+            <li><a href="./home.html#notifications">Setting up notification privacy</a></li>
             <li><a href="./home.html#tweak-app-permissions">How to change app permissions, specifically:</a>
               <ul>
                 <li>Location</li>
@@ -86,6 +87,7 @@
             <li>Orbot (<a href="https://play.google.com/store/apps/details?id=org.torproject.android">https://play.google.com/store/apps/details?id=org.torproject.android</a>) and Orfox (<a href="https://play.google.com/store/apps/details?id=info.guardianproject.orfox">https://play.google.com/store/apps/details?id=info.guardianproject.orfox</a>). These two apps together provide anonymous web browsing, something we'll come back to.</li>
             <li>Avast! Mobile Security (<a href="https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity">https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity</a>). This app does antivirus scans on your phone, and can detect dangerous apps on your phone (among other things, most of them useful).</li>
             <li>Fing (<a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing">https://play.google.com/store/apps/details?id=com.overlook.android.fing</a>). Fing monitors what devices are connnected to your Wifi.</li>
+            <li>NoRoot Firewall (<a href="https://play.google.com/store/apps/details?id=app.greyshirts.firewall">https://play.google.com/store/apps/details?id=app.greyshirts.firewall</a>). NoRoot Firewall is an Android firewall. I'll explain what that is <a href="./home.html#firewall-explanation">in a second</a>.
           </ul>
         </p>
         <p>
@@ -100,15 +102,34 @@
         <p>
           Fing is a weird app. Its job is to look at your Wifi network and tell you what is connected to it. This is good for finding things that are connected that you don't want connected, like hidden cameras, audio bugs, stuff like that. It is possible for devices to hide from this app, but it is tricky. I've only ever seem one device that could do it. (If you're curious, it was a base for a home security system.) Basically, just open the app every once in a while, refresh it, and make sure that there's no surprises in the resultant list.
         </p>
+        <p id="firewall-explanation">
+          A firewall is a piece of software that regulates internet access. Basically, if you have an app installed, and there's no good reason for it to connect to the Internet, then you can prevent it from accessing the internet. Period. End of discussion. This particular firewall will notify you every time something tries to connect, and ask if you're cool with it. It's pretty cool. Of course, if you say yes, then the firewall will remember that and not ask you again. You can always revoke this permission.
+        </p>
       </div>
       <p id="apps-to-remove">
-        Apps to remove
+        <h3>Apps to remove</h3>
+        <p>
+          We recommend removing the following apps:
+          <ul>
+            <li>Facebook</li>
+            <li>Facebook Messenger</li>
+            <li>Snapchat</li>
+            <li>Pokemon GO</li>
+            <li>Twitter</li>
+          </ul>
+        </p>
+        <p>
+          These are all apps that have the ability to publicly post your physical location. Facebook, Facebook Messenger and Twitter can all be accessed online (Messenger requires a little bit of work though; I'll go over that in a separate guide, linked <a href="./messenger-in-firefox.html">here</a>). They are not as pretty online, but they are functional, and using the online version makes it harder for the websites to grab your location.
+        </p>
       </p>
       <p id="turn-location-off">
         How to turn location off
       </p>
       <p id="tape-camera">
         Tape or nail polish over the camera
+      </p>
+      <p id="notifications">
+        Setting up notification privacy
       </p>
       <p id="tweak-app-permissions">
         Tweaking app permissions
