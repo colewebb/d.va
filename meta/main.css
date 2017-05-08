@@ -48,10 +48,17 @@ h3 {
   color: black;
 }
 #longform ul {
-  font-size: 1.05em;
+  font-size: 1.15em;
+  padding-left: 60px;
+}
+#longform ol {
+  font-size: 1.15em;
   padding-left: 60px;
 }
 footer p{
   font-size: 0.75em;
   margin-left: 0%;
+}
+i {
+  font-style: italic;
 }
