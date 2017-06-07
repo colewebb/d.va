@@ -62,3 +62,8 @@ footer p{
 i {
   font-style: italic;
 }
+#app-permissions-screenshot {
+  height: 40em;
+  width: 22.5em;
+  margin-left: 2%;
+}
